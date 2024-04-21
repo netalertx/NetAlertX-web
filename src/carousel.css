@@ -1,0 +1,33 @@
+.Gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .GalleryItem {
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .GalleryItem img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .modal-fullwidth .modal-dialog {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  
+
+
+.card-img, .card-img-bottom, .card-img-top {
+  width: 100%;
+
+  height: 100px;
+
+}
+  

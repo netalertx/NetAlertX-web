@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.FeaturesContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Gallery.css */
+.Feature {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.Feature h3 {
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.FeatureDescription {
+  color: #666666;
+  font-size: 16px;
+}
+
+
+.modal-fullwidth .modal-dialog {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  --bs-modal-width:  100% !important;
+}
+
+.full-width
+{
+  width: 100%;
+}
+
+
+.modal {
+  --bs-modal-width: 80% !important;
+  max-width: none; /* Ensure the modal doesn't have a maximum width */
+}
+
+.center
+{
+  text-align: center;
+}
+
+.section-padding
+{
+  padding:2em;
+}
