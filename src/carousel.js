@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap'; // Import Modal and Button from react-bootstrap
 import './carousel.css'; // Import your custom styles
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { 
+  faMagnifyingGlassPlus
+} from '@fortawesome/free-solid-svg-icons';
 
 function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -16,20 +20,18 @@ function Gallery() {
   };
 
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container dark-theme">
+      <div className="Gallery">
         {images.map((image, index) => (
-          <div key={index} className="col-md-2 mb-2">
-            <div className="card">
+          <div key={index} className="GalleryItem">
+            <div className="image-container">
               <img
                 src={image}
-                className="card-img-top clickable-image"
+                className="clickable-image"
                 alt={`Slide ${index + 1}`}
                 onClick={() => handleImageClick(image)}
               />
-              <div className="card-body">
-                <h5 className="card-title">Click to zoom</h5>
-              </div>
+              <FontAwesomeIcon icon={faMagnifyingGlassPlus} className="magnifying-icon" />
             </div>
           </div>
         ))}
