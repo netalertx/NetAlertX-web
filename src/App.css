@@ -1,6 +1,21 @@
+:root {
+  --bs-body-bg: #272c30 !important;
+}
+
 .LandingPage {
   background-color: #000000; /* Black */
+  
 }
+
+.section-padding
+{
+  max-width: 1200px;
+  margin: auto;
+}
+.col{
+  padding: 20px;
+}
+
 
 .App {
   text-align: center;
@@ -30,6 +45,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #ffffff; /* White text color */
+  background-attachment:fixed;
 }
 
 .Intro,
@@ -63,8 +79,12 @@
   margin: 5px;
 }
 
-.row .col .card-body {
-  background-color: #333c46; /* Light brown */
+/* .slice {
+  background-color: #333c46;
+} */
+
+.col .card-body {
+  background-color: #333c46; 
   color: #ecedee;
   --bs-card-border-color: none !important;
 }
@@ -107,4 +127,43 @@
 
 .Footer a:hover {
   color: #4a90e2; /* Change icon color on hover */
+}
+
+.slice .card-text
+{
+ 
+  margin-top: 15%;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;    /* Vertical centering */
+  
+}
+
+/* Header */
+.Header
+{
+  display: block;
+  position: fixed;
+}
+
+.shield
+{
+  padding: 3px;
+}
+
+/* helpers */
+.height-300
+{
+  height: 300px;
+}
+
+.height-250
+{
+  height: 250px;
+}
+
+.Features .card-body
+{
+  padding: 30px;
+  margin-top: 25px;
+  margin-right: 25px;
 }
