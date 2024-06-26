@@ -18,8 +18,9 @@ function SectionSlice({ icon, title, description, backgroundImage, imagePosition
           )}
           <div className="col-md-6 ">
             <div className="card-body height-250">
+              <FontAwesomeIcon icon={icon} className='background-icon' />
               <h3 className="card-title">
-                <FontAwesomeIcon icon={icon} /> {title}
+                 {title}
               </h3>
               <p className="card-text">{description}</p>
             </div>

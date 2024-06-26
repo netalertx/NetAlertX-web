@@ -43,21 +43,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(3px + 2vmin);
   color: #ffffff; /* White text color */
   background-attachment:fixed;
 }
 
 .Intro,
-.CarouselSection,
-.CTA {
+.CarouselSection,.Integrations{
   text-align: center;
   background-color: #333c46; /* Dark blue-grey */
   color: #bec5cb ; /* White text color */
 }
 
 .Features,
-.WhyUse {
+.WhyUse,
+.CTA  {
   text-align: center;
   background-color: #272c30; /* Dark blue-grey */
   color: #bec5cb; /* White text color */
@@ -87,6 +87,7 @@
   background-color: #333c46; 
   color: #ecedee;
   --bs-card-border-color: none !important;
+  border-radius: 5px;
 }
 
 
@@ -138,6 +139,16 @@
   
 }
 
+.Integrations h4
+{
+  color: #bec5cb !important;
+}
+
+.Integrations li
+{
+  color: #bec5cb !important;
+}
+
 /* Header */
 .Header
 {
@@ -166,4 +177,21 @@
   padding: 30px;
   margin-top: 25px;
   margin-right: 25px;
+}
+
+/* slices */
+.background-icon
+{
+  width: 100px;
+  height: 100px;
+  opacity: 0.1;
+  float: right;
+  display: block;
+  
+}
+
+.pitch
+{
+  font-size:larger;
+  padding: 50px;
 }
