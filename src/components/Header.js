@@ -6,12 +6,12 @@ function Header() {
   return (
     <div className="Header">     
         <div className='shield'>        
-            <a href='https://github.com/jokob-sk/NetAlertX' target='_blank'>    
+            <a href='https://github.com/jokob-sk/NetAlertX' target='_blank' rel="noreferrer">    
                 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/jokob-sk/NetAlertX?label=Stars&style=flat-square&logo=github&color=0aa8d2&logoColor=fff" />
             </a>
         </div>
         <div className='shield'>  
-            <a href='(https://hub.docker.com/r/jokobsk/netalertx' target='_blank'>    
+            <a href='(https://hub.docker.com/r/jokobsk/netalertx' target='_blank' rel="noreferrer">    
                 <img alt="GitHub Repo stars" src="https://img.shields.io/docker/pulls/jokobsk/netalertx?label=Pulls&logo=docker&color=0aa8d2&logoColor=fff" />
             </a>
         </div>  
