@@ -125,7 +125,7 @@ function LandingPage() {
       </section>
       <section className="Integrations section-padding">
         <h2>Available Plugins</h2>
-        <PluginTables/>  
+        <p>Net<b>Alert</b><sup>X</sup> features a robust plugin system that allows third-party scripts to feed events into the UI and send notifications, with functionalities like dynamic UI creation, value filtering, and importing objects into the database. </p>
         <a
           className="App-link-small btn btn-secondary"
           href="https://github.com/jokob-sk/NetAlertX/blob/main/docs/PLUGINS_DEV.md"
@@ -135,6 +135,11 @@ function LandingPage() {
           <span><FontAwesomeIcon icon={faCode} /> Plugin missing? Create one</span>
           <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
         </a>
+        <br/>
+        <br/>
+        
+        <PluginTables/>  
+
       </section>
       <section className="CTA section-padding">
         <h2>Get Started</h2>
