@@ -11,7 +11,7 @@ function Header() {
             </a>
         </div>
         <div className='shield'>  
-            <a href='(https://hub.docker.com/r/jokobsk/netalertx' target='_blank' rel="noreferrer">    
+            <a href='https://hub.docker.com/r/jokobsk/netalertx' target='_blank' rel="noreferrer">    
                 <img alt="GitHub Repo stars" src="https://img.shields.io/docker/pulls/jokobsk/netalertx?label=Pulls&logo=docker&color=0aa8d2&logoColor=fff" />
             </a>
         </div>  

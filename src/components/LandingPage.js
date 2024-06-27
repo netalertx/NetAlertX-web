@@ -87,14 +87,14 @@ function LandingPage() {
         />       
         <SectionSlice
             icon={faNetworkWired} 
-            title="Network Visualization and UI customization"
+            title="Network Visualization and UI Customization"
             description="User friendly visualization of your network and detailed UI configuartion options."
             backgroundImage="img/section_slices/network_ui.gif"
             imagePosition="left"
         />       
         <SectionSlice
             icon={faGroupArrowsRotate}
-            title="Multi-Network Unification"
+            title="Multi-Network Visibility"
             description="Synchronize multiple network instances and gain cross-network visibility of devices."
             backgroundImage="img/section_slices/sync_hub.png"
             imagePosition="right"
