@@ -1,5 +1,6 @@
 import React from 'react';
 import { SiUnraid } from "react-icons/si";
+import YouTube from 'react-youtube';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faNetworkWired,
@@ -26,6 +27,8 @@ import Header from './Header';
 import SectionSlice from './SectionSlice';
 import PluginTables from './PluginTables';
 
+const videoId = 'bjA7wIK_jXY';
+
 
 function LandingPage() {
   return (
@@ -35,7 +38,7 @@ function LandingPage() {
         <Container>
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Net<b>Alert</b><sup>X</sup></h1>
-        <p className='pitch'>Visualize Your Networks, Get Real-Time Alerts, and Seamlessly Integrate with Your Smart Home. </p>
+        <p className='pitch'>Visualize All Your Networks in One Place, Get Real-Time Alerts, and Seamlessly Integrate with Your Smart Home. </p>
           <a
             className="App-link d-block mx-auto mb-4"
             href="#Features"
@@ -95,7 +98,7 @@ function LandingPage() {
         <SectionSlice
             icon={faGroupArrowsRotate}
             title="Multi-Network Visibility"
-            description="Synchronize multiple network instances and gain cross-network visibility of devices."
+            description="Synchronize multiple network instances and gain cross-network visibility of devices across a range of network device manufacturers."
             backgroundImage="img/section_slices/sync_hub.png"
             imagePosition="right"
         />       
@@ -115,13 +118,13 @@ function LandingPage() {
       </section>
       
       <section className="WhyUse section-padding">
-        <h2>Why Use Net<b>Alert</b><sup>X</sup>?</h2>
+        <h2>Why Net<b>Alert</b><sup>X</sup>?</h2>
         <p>Net<b>Alert</b><sup>X</sup> provides a user-friendly solution to monitor your network, ensuring peace of mind and enhanced security.</p>
 
-        <p>Net<b>Alert</b><sup>X</sup> is your ultimate network management companion. Stay ahead with real-time alerts for new devices, disconnections, and critical changes. With scheduled scans and seamless integration with over 80 notification services, including email and Telegram, NetAlertX keeps you informed anywhere. </p>
+        <p>Net<b>Alert</b><sup>X</sup> is your ultimate network management companion. Stay ahead with real-time alerts for new devices, disconnections, and critical changes. With scheduled scans and seamless integration with over 80 notification services, including email and Telegram, Net<b>Alert</b><sup>X</sup> keeps you informed anywhere. </p>
         
         
-        <p>Visualize your network with intuitive UI customization and unify multiple networks effortlessly. Plus, integrate with Home Assistant for advanced automation. Whether you're monitoring your home or office network, NetAlertX empowers you with deep insights and proactive management. </p>
+        <p>Visualize your network with intuitive UI customization and unify multiple networks effortlessly. Plus, integrate with Home Assistant for advanced automation. Whether you're monitoring your home or office network, Net<b>Alert</b><sup>X</sup> empowers you with deep insights and proactive management. </p>
       </section>
       <section className="Integrations section-padding">
         <h2>Available Plugins</h2>
@@ -132,9 +135,12 @@ function LandingPage() {
           target="_blank"
           rel="noreferrer"
         >
-          <span><FontAwesomeIcon icon={faCode} /> Plugin missing? Create one</span>
+          <span><FontAwesomeIcon icon={faCode} /> Plugin missing? Create one</span>          
           <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
         </a>
+        <br/>
+        <br/>
+        <YouTube videoId={videoId} />
         <br/>
         <br/>
         
