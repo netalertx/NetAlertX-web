@@ -26,13 +26,10 @@ import Footer from './Footer';
 import Header from './Header';
 import SectionSlice from './SectionSlice';
 import PluginTables from './PluginTables';
+import YouTubePlayer from './YouTube';
 
 const videoId = 'cdbxlwiWhv8';
-const opts = {
-  playerVars: {
-    rel: 0, // Prevents recommended videos from showing
-  },
-};
+
 
 
 function LandingPage() {
@@ -145,7 +142,8 @@ function LandingPage() {
         </a>
         <br/>
         <br/>
-        <YouTube videoId={videoId} opts={opts}/>
+        <YouTubePlayer videoId={videoId} />
+        {/* <YouTube videoId={videoId} opts={opts}/> */}
         <br/>
         <br/>
         

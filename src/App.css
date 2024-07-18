@@ -139,6 +139,20 @@
   
 }
 
+.modal-content{
+  width:70%;
+  max-width: 70%;
+}
+.modal-body{
+  width:100%;
+  max-width: 100%;
+}
+
+.row
+{
+  height: inherit;
+}
+
 .slice .card-img
 {
   cursor: pointer;
