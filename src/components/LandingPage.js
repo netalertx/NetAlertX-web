@@ -40,7 +40,7 @@ function LandingPage() {
         <Container>
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Net<b>Alert</b><sup>X</sup></h1>
-        <p className='pitch'>Visualize All Your Networks in One Place, Get Real-Time Alerts, and Seamlessly Integrate with Your Smart Home. </p>
+        <p className='pitch'>Easily visualize all your networks in one place, enhance security with real-time alerts, and enjoy seamless integration with your smart home—no matter what hardware you use.</p>
           <a
             className="App-link d-block mx-auto mb-4"
             href="#Features"
