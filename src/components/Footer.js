@@ -5,7 +5,7 @@ import {
   faEnvelope,
   faX
 } from '@fortawesome/free-solid-svg-icons';
-import { faGithubSquare as faGithub, faDocker } from '@fortawesome/free-brands-svg-icons';
+import { faGithubSquare as faGithub, faDocker, faDiscord, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import '../App.css';
 
@@ -30,7 +30,10 @@ function Footer() {
             <SiUnraid /> 
           </a>
           <a href="https://x.com/@NetAlertX" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faX} />
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
+          <a href="https://discord.gg/UQnnHNYV" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faDiscord} />
           </a>
         </div>
         <p>
