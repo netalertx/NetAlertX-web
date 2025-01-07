@@ -19,7 +19,7 @@ function Footer() {
     script.setAttribute('data-widget-id', 'S7JLMl911axbTEhNp_cyrCqPtNOwbPwgHhSVIMSG5lo');
     script.setAttribute('data-text', 'Ask AI');
     script.setAttribute('data-margins', JSON.stringify({ bottom: "1rem", right: "1rem" }));
-    script.setAttribute('data-light-mode', 'true');
+    script.setAttribute('data-light-mode', 'false');
     script.id = 'guru-widget-id';
 
     // Append the script to the body
