@@ -50,7 +50,7 @@ function Footer() {
           <a href="https://x.com/@NetAlertX" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="https://discord.gg/UQnnHNYV" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.gg/NczTUTWyRr" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faDiscord} />
           </a>
         </div>

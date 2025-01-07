@@ -16,7 +16,7 @@ function Header() {
             </a>
         </div>  
         <div className='shield'>  
-            <a href='https://discord.gg/UQnnHNYV' target='_blank' rel="noreferrer">    
+            <a href='https://discord.gg/NczTUTWyRr' target='_blank' rel="noreferrer">    
                 <img alt="Discord" src="https://img.shields.io/discord/1274490466481602755?color=0aa8d2&logoColor=fff&logo=Discord&style=for-the-badge" />
             </a>
         </div>  
