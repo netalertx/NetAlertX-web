@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { SiUnraid } from "react-icons/si";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
+  faBook,
   faEnvelope,
   faX
 } from '@fortawesome/free-solid-svg-icons';
@@ -52,6 +53,9 @@ function Footer() {
           </a>
           <a href="https://discord.gg/NczTUTWyRr" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faDiscord} />
+          </a>
+          <a href="https://github.com/jokob-sk/NetAlertX/blob/main/docs/README.md" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faBook} />
           </a>
         </div>
         <p>
