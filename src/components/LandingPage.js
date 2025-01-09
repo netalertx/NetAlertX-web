@@ -39,7 +39,7 @@ function LandingPage() {
       <header className="App-header text-center">
         <Container>
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Net<b>Alert</b><sup>X</sup></h1>
+        <h1>Net<b>Alert</b><sup>x</sup></h1>
         <p className='pitch'>Easily visualize all your networks in one place, enhance security with real-time alerts, and enjoy seamless integration with your smart home—no matter what hardware you use.</p>
           <a
             className="App-link d-block mx-auto mb-4"
@@ -120,17 +120,17 @@ function LandingPage() {
       </section>
       
       <section className="WhyUse section-padding">
-        <h2>Why Net<b>Alert</b><sup>X</sup>?</h2>
-        <p>Net<b>Alert</b><sup>X</sup> provides a user-friendly solution to monitor your network, ensuring peace of mind and enhanced security.</p>
+        <h2>Why Net<b>Alert</b><sup>x</sup>?</h2>
+        <p>Net<b>Alert</b><sup>x</sup> provides a user-friendly solution to monitor your network, ensuring peace of mind and enhanced security.</p>
 
-        <p>Net<b>Alert</b><sup>X</sup> is your ultimate network management companion. Stay ahead with real-time alerts for new devices, disconnections, and critical changes. With scheduled scans and seamless integration with over 80 notification services, including email and Telegram, Net<b>Alert</b><sup>X</sup> keeps you informed anywhere. </p>
+        <p>Net<b>Alert</b><sup>x</sup> is your ultimate network management companion. Stay ahead with real-time alerts for new devices, disconnections, and critical changes. With scheduled scans and seamless integration with over 80 notification services, including email and Telegram, Net<b>Alert</b><sup>x</sup> keeps you informed anywhere. </p>
         
         
-        <p>Visualize your network with intuitive UI customization and unify multiple networks effortlessly. Plus, integrate with Home Assistant for advanced automation. Whether you're monitoring your home or office network, Net<b>Alert</b><sup>X</sup> empowers you with deep insights and proactive management. </p>
+        <p>Visualize your network with intuitive UI customization and unify multiple networks effortlessly. Plus, integrate with Home Assistant for advanced automation. Whether you're monitoring your home or office network, Net<b>Alert</b><sup>x</sup> empowers you with deep insights and proactive management. </p>
       </section>
       <section className="Integrations section-padding">
         <h2>Available Plugins</h2>
-        <p>Net<b>Alert</b><sup>X</sup> features a robust plugin system that allows third-party scripts to feed events into the UI and send notifications, with functionalities like dynamic UI creation, value filtering, and importing objects into the database. </p>
+        <p>Net<b>Alert</b><sup>x</sup> features a robust plugin system that allows third-party scripts to feed events into the UI and send notifications, with functionalities like dynamic UI creation, value filtering, and importing objects into the database. </p>
         <a
           className="App-link-small btn btn-secondary"
           href="https://github.com/jokob-sk/NetAlertX/blob/main/docs/PLUGINS_DEV.md"
