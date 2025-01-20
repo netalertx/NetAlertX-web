@@ -69,6 +69,16 @@ function LandingPage() {
                 <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               </Button>
             </Col>
+            <Col md="auto">
+              <Button
+                variant="secondary"
+                href="https://github.com/alexbelgium/hassio-addons/blob/master/netalertx/README.md"
+                className="App-link-small"
+              >
+                <SiUnraid /> Get for Home Assistant
+                <FontAwesomeIcon icon={faHouseSignal} className="icon" />
+              </Button>
+            </Col>
           </Row>
         </Container>
       </header>
@@ -169,6 +179,15 @@ function LandingPage() {
         >
           <span><SiUnraid /> Get for Unraid</span>
           <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/alexbelgium/hassio-addons/blob/master/netalertx/README.md"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span><SiUnraid /> Get for Home Assistant</span>
+          <FontAwesomeIcon icon={faHouseSignal} className="icon" />
         </a>
       </section>
       <Footer/>

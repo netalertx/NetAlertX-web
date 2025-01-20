@@ -59,7 +59,7 @@ function Footer() {
           </a>
         </div>
         <p>
-          Copyright © {new Date().getFullYear()} Net<b>Alert</b><sup>X</sup>. All rights reserved.
+          Copyright © {new Date().getFullYear()} Net<b>Alert</b><sup>x</sup>. All rights reserved.
         </p>
         {/* Add links to legal information, terms of service, privacy policy, etc. */}
       </footer>
