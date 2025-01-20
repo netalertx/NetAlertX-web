@@ -1,6 +1,7 @@
 import React from 'react';
 import { SiUnraid } from "react-icons/si";
 import YouTube from 'react-youtube';
+import { mdiHomeAssistant } from '@mdi/js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faNetworkWired,
@@ -55,8 +56,7 @@ function LandingPage() {
                 href="https://github.com/jokob-sk/NetAlertX/tree/main/dockerfiles#-basic-usage"
                 className="App-link-small"
               >
-                <FontAwesomeIcon icon={faDocker} /> Get for Docker
-                <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+                <FontAwesomeIcon icon={faDocker} /> On Docker                
               </Button>
             </Col>
             <Col md="auto">
@@ -65,8 +65,7 @@ function LandingPage() {
                 href="https://unraid.net/community/apps?q=netalertx#r"
                 className="App-link-small"
               >
-                <SiUnraid /> Get for Unraid
-                <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+                <SiUnraid /> On Unraid                
               </Button>
             </Col>
             <Col md="auto">
@@ -75,8 +74,7 @@ function LandingPage() {
                 href="https://github.com/alexbelgium/hassio-addons/blob/master/netalertx/README.md"
                 className="App-link-small"
               >
-                <SiUnraid /> Get for Home Assistant
-                <FontAwesomeIcon icon={faHouseSignal} className="icon" />
+                <Icon path={mdiHomeAssistant} size={1} color="white" /> On Home Assistant                
               </Button>
             </Col>
           </Row>
@@ -148,7 +146,7 @@ function LandingPage() {
           rel="noreferrer"
         >
           <span><FontAwesomeIcon icon={faCode} /> Plugin missing? Create one</span>          
-          <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+          
         </a>
         <br/>
         <br/>
@@ -168,8 +166,7 @@ function LandingPage() {
           target="_blank"
           rel="noreferrer"
         >
-          <span><FontAwesomeIcon icon={faDocker} /> Get for Docker</span>
-          <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+          <span><FontAwesomeIcon icon={faDocker} /> On Docker</span>
         </a>
         <a
           className="App-link"
@@ -177,8 +174,7 @@ function LandingPage() {
           target="_blank"
           rel="noreferrer"
         >
-          <span><SiUnraid /> Get for Unraid</span>
-          <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+          <span><SiUnraid /> On Unraid</span>
         </a>
         <a
           className="App-link"
@@ -186,8 +182,7 @@ function LandingPage() {
           target="_blank"
           rel="noreferrer"
         >
-          <span><SiUnraid /> Get for Home Assistant</span>
-          <FontAwesomeIcon icon={faHouseSignal} className="icon" />
+          <span> <Icon path={mdiHomeAssistant} size={1} color="white" /> On Home Assistant</span>
         </a>
       </section>
       <Footer/>
