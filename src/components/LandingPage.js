@@ -1,6 +1,7 @@
 import React from 'react';
 import { SiUnraid } from "react-icons/si";
 import YouTube from 'react-youtube';
+import { Icon } from '@mdi/react';
 import { mdiHomeAssistant } from '@mdi/js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -56,7 +57,7 @@ function LandingPage() {
                 href="https://github.com/jokob-sk/NetAlertX/tree/main/dockerfiles#-basic-usage"
                 className="App-link-small"
               >
-                <FontAwesomeIcon icon={faDocker} /> On Docker                
+                <FontAwesomeIcon icon={faDocker} /> Docker                
               </Button>
             </Col>
             <Col md="auto">
@@ -65,7 +66,7 @@ function LandingPage() {
                 href="https://unraid.net/community/apps?q=netalertx#r"
                 className="App-link-small"
               >
-                <SiUnraid /> On Unraid                
+                <SiUnraid /> Unraid                
               </Button>
             </Col>
             <Col md="auto">
@@ -74,7 +75,7 @@ function LandingPage() {
                 href="https://github.com/alexbelgium/hassio-addons/blob/master/netalertx/README.md"
                 className="App-link-small"
               >
-                <Icon path={mdiHomeAssistant} size={1} color="white" /> On Home Assistant                
+                <Icon path={mdiHomeAssistant} size={1} color="white" /> Home Assistant                
               </Button>
             </Col>
           </Row>
@@ -159,14 +160,14 @@ function LandingPage() {
 
       </section>
       <section className="CTA section-padding">
-        <h2>Get Started</h2>
+        <h2>Get Started on:</h2>
         <a
           className="App-link"
           href="https://github.com/jokob-sk/NetAlertX/tree/main/dockerfiles#-basic-usage"
           target="_blank"
           rel="noreferrer"
         >
-          <span><FontAwesomeIcon icon={faDocker} /> On Docker</span>
+          <span><FontAwesomeIcon icon={faDocker} /> Docker</span>
         </a>
         <a
           className="App-link"
@@ -174,7 +175,7 @@ function LandingPage() {
           target="_blank"
           rel="noreferrer"
         >
-          <span><SiUnraid /> On Unraid</span>
+          <span><SiUnraid /> Unraid</span>
         </a>
         <a
           className="App-link"
@@ -182,7 +183,7 @@ function LandingPage() {
           target="_blank"
           rel="noreferrer"
         >
-          <span> <Icon path={mdiHomeAssistant} size={1} color="white" /> On Home Assistant</span>
+          <span> <Icon path={mdiHomeAssistant} size={1} color="white" /> Home Assistant</span>
         </a>
       </section>
       <Footer/>
