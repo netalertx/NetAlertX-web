@@ -12,7 +12,7 @@ function SectionSlice({ icon, title, description, backgroundImage, imagePosition
 
   const isImageLeft = imagePosition === 'left';
   const image = (
-    <div className="col-md-6 height-300">
+    <div className="col-md-6 height-300 pointer">
       <FontAwesomeIcon icon={faMagnifyingGlassPlus} className="magnifying-icon-slice" />
       <div 
         className="card-img height-300" 
@@ -29,11 +29,11 @@ function SectionSlice({ icon, title, description, backgroundImage, imagePosition
 
   return (
     <div className="col height-300 slice">
-      <div className="card border-0">
+      <div className="card border-0 card-row">
         <div className="row no-gutters height-300">
           {isImageLeft && image}
           <div className="col-md-6 height-300">
-            <div className="card-body height-250">
+            <div className="card-body height-300">
               <FontAwesomeIcon icon={icon} className='background-icon' />
               <h3 className="card-title">{title}</h3>
               <p className="card-text">{description}</p>

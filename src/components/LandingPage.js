@@ -85,7 +85,7 @@ function LandingPage() {
 
 
       <section id="Features" className="Features section-padding">
-
+        <h2>Features</h2>
         <SectionSlice
             icon={faSearch}
             title="Scheduled and Ad-hoc Network Scans"
@@ -125,6 +125,7 @@ function LandingPage() {
       </section>
 
       <section className="CarouselSection section-padding">
+        <h2>Screenshots</h2>
         <Carousel />
       </section>
       

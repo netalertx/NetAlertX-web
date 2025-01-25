@@ -32,6 +32,18 @@
   }
 }
 
+:root {
+  --bs-modal-margin: 1rem; /* Replace with your desired value */
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 100% !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 .App-header {
   background-color: #272c30; /* Dark blue-grey */
   background-image: url(../public/img/github_social_image_no_logo.jpg);
@@ -61,6 +73,7 @@
   text-align: center;
   background-color: #272c30; /* Dark blue-grey */
   color: #bec5cb; /* White text color */
+  padding-bottom: 50px;
 }
 
 
@@ -141,7 +154,7 @@
 
 .modal-content{
   width:90%;
-  max-width: 90%;
+  /* max-width: 90%; */
 }
 .modal-body{
   width:100%;
@@ -157,6 +170,11 @@
 {
   cursor: pointer;
 } 
+
+.pointer
+{
+  cursor: pointer;
+}
 
 .Integrations h4
 {
@@ -194,8 +212,12 @@
 .Features .card-body
 {
   padding: 30px;
-  margin-top: 25px;
-  margin-right: 25px;
+  /* margin-right: 25px; */
+}
+
+.card-row
+{
+  padding-top:10px;
 }
 
 /* slices */
