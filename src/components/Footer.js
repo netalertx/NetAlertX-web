@@ -54,7 +54,7 @@ function Footer() {
           <a href="https://discord.gg/NczTUTWyRr" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faDiscord} />
           </a>
-          <a href="https://github.com/jokob-sk/NetAlertX/blob/main/docs/README.md" target="_blank" rel="noopener noreferrer">
+          <a href="https://jokob-sk.github.io/NetAlertX/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faBook} />
           </a>
         </div>

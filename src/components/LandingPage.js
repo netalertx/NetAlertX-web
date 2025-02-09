@@ -143,7 +143,7 @@ function LandingPage() {
         <p>Net<b>Alert</b><sup>x</sup> features a robust plugin system that allows third-party scripts to feed events into the UI and send notifications, with functionalities like dynamic UI creation, value filtering, and importing objects into the database. </p>
         <a
           className="App-link-small btn btn-secondary"
-          href="https://github.com/jokob-sk/NetAlertX/blob/main/docs/PLUGINS_DEV.md"
+          href="https://jokob-sk.github.io/NetAlertX/PLUGINS_DEV"
           target="_blank"
           rel="noreferrer"
         >
