@@ -15,7 +15,8 @@ import {
   faCalendar,
   faHouseSignal,
   faChevronDown,
-  faSearch
+  faSearch,
+  faArrowsSplitUpAndLeft 
 } from '@fortawesome/free-solid-svg-icons';
 import { faGithubSquare as faGithub, faDocker } from '@fortawesome/free-brands-svg-icons';
 
@@ -48,13 +49,13 @@ function LandingPage() {
             href="#Features"
             style={{ display: 'inline-block', width: 'fit-content' }}
           >
-            Learn More <FontAwesomeIcon icon={faChevronDown} />
+            Learn More 
           </a>
           <Row className="sub-buttons justify-content-center g-4">
             <Col md="auto">
               <Button
                 variant="secondary"
-                href="https://github.com/jokob-sk/NetAlertX/tree/main/dockerfiles#-basic-usage"
+                href="https://jokob-sk.github.io/NetAlertX/INSTALLATION_DOCKER/"
                 className="App-link-small"
               >
                 <FontAwesomeIcon icon={faDocker} /> Docker                
@@ -102,24 +103,79 @@ function LandingPage() {
         <SectionSlice
             icon={faNetworkWired} 
             title="Network Visualization and UI Customization"
-            description="User friendly visualization of your network and detailed UI configuartion options."
+            description={
+                <>
+                    User friendly visualization of your {" "}
+                    <a
+                        href="https://jokob-sk.github.io/NetAlertX/NETWORK_TREE/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                    >
+                        network
+                    </a>{" "}and detailed UI configuartion options.
+                </>
+            }
             backgroundImage="img/section_slices/network_ui.gif"
             imagePosition="left"
         />       
         <SectionSlice
             icon={faGroupArrowsRotate}
             title="Multi-Network Visibility"
-            description="Synchronize multiple network instances and gain cross-network visibility of devices across a range of network device manufacturers."
+            description={
+                <>
+                    Synchronize multiple networks and gain cross-network visibility of devices across a range of network device manufacturers with the{" "}
+                    <a
+                        href="https://jokob-sk.github.io/NetAlertX/REMOTE_NETWORKS/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                    >
+                        Sync plugin
+                    </a>.
+                </>
+            }
             backgroundImage="img/section_slices/sync_hub.png"
             imagePosition="right"
         />       
         <SectionSlice
             icon={faHouseSignal}
-            title="Integrate into your Smart Home"
-            description="Synchronize device status and attributes to your Home Assistant instance for advanced automation workflows."
+            title="Integrate with your smart home"
+            description={
+                <>
+                    Synchronize device status and attributes to your{" "}
+                    <a
+                        href="https://jokob-sk.github.io/NetAlertX/HOME_ASSISTANT/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                    >
+                        Home Assistant instance
+                    </a> for advanced automation workflows.
+                </>
+            }
             backgroundImage="img/section_slices/home_Assistant.gif"
             imagePosition="left"
         />       
+        <SectionSlice
+            icon={faArrowsSplitUpAndLeft}
+            title="Automate Device Management"
+            description={
+                <>
+                    Automate device management in NetAlertX with simple{" "}
+                    <a
+                        href="https://jokob-sk.github.io/NetAlertX/WORKFLOWS/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                    >
+                        workflows and business rules
+                    </a>.
+                </>
+            }
+            backgroundImage="img/section_slices/workflows.gif"
+            imagePosition="right"
+        />     
         
 
       </section>
@@ -164,7 +220,7 @@ function LandingPage() {
         <h2>Get Started on:</h2>
         <a
           className="App-link"
-          href="https://github.com/jokob-sk/NetAlertX/tree/main/dockerfiles#-basic-usage"
+          href="https://jokob-sk.github.io/NetAlertX/INSTALLATION_DOCKER/"
           target="_blank"
           rel="noreferrer"
         >

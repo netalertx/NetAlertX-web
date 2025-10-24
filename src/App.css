@@ -44,6 +44,13 @@
   }
 }
 
+a{
+  color: #61dafb;
+}
+a:hover{
+  color: #49aac5;
+}
+
 .App-header {
   background-color: #272c30; /* Dark blue-grey */
   background-image: url(../public/img/github_social_image_no_logo.jpg);
@@ -122,6 +129,13 @@
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease;
+}
+
+.App-link svg{
+  height: 16px;
+  float: left;
+  padding: 3px; 
+  
 }
 
 .App-link:hover {
@@ -249,4 +263,9 @@
 {
   font-size:larger;
   padding: 50px;
+}
+
+.App-link-small
+{
+  height: 40px;
 }
