@@ -55,7 +55,7 @@ function LandingPage() {
             <Col md="auto">
               <Button
                 variant="secondary"
-                href="https://jokob-sk.github.io/NetAlertX/INSTALLATION_DOCKER/"
+                href="https://jokob-sk.github.io/NetAlertX/DOCKER_INSTALLATION/"
                 className="App-link-small"
               >
                 <FontAwesomeIcon icon={faDocker} /> Docker                
@@ -220,7 +220,7 @@ function LandingPage() {
         <h2>Get Started on:</h2>
         <a
           className="App-link"
-          href="https://jokob-sk.github.io/NetAlertX/INSTALLATION_DOCKER/"
+          href="https://jokob-sk.github.io/NetAlertX/DOCKER_INSTALLATION/"
           target="_blank"
           rel="noreferrer"
         >
