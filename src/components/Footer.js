@@ -36,7 +36,7 @@ function Footer() {
     <div className="LandingPage">
       <footer className="Footer">
         <div>
-          <a href="https://github.com/jokob-sk/NetAlertX" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/netalertx/NetAlertX" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a href="mailto:netalertx@gmail.com">
@@ -46,7 +46,7 @@ function Footer() {
             <FontAwesomeIcon icon={faDocker} />
           </a>
           <a href="https://unraid.net/community/apps?q=netalertx#r" target="_blank" rel="noopener noreferrer">
-            <SiUnraid /> 
+            <SiUnraid />
           </a>
           <a href="https://x.com/@NetAlertX" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} />
@@ -54,7 +54,7 @@ function Footer() {
           <a href="https://discord.gg/NczTUTWyRr" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faDiscord} />
           </a>
-          <a href="https://jokob-sk.github.io/NetAlertX/" target="_blank" rel="noopener noreferrer">
+          <a href="https://docs.netalertx.com/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faBook} />
           </a>
         </div>

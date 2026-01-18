@@ -16,7 +16,7 @@ import {
   faHouseSignal,
   faChevronDown,
   faSearch,
-  faArrowsSplitUpAndLeft 
+  faArrowsSplitUpAndLeft
 } from '@fortawesome/free-solid-svg-icons';
 import { faGithubSquare as faGithub, faDocker } from '@fortawesome/free-brands-svg-icons';
 
@@ -49,16 +49,16 @@ function LandingPage() {
             href="#Features"
             style={{ display: 'inline-block', width: 'fit-content' }}
           >
-            Learn More 
+            Learn More
           </a>
           <Row className="sub-buttons justify-content-center g-4">
             <Col md="auto">
               <Button
                 variant="secondary"
-                href="https://jokob-sk.github.io/NetAlertX/DOCKER_INSTALLATION/"
+                href="https://docs.netalertx.com/DOCKER_INSTALLATION/"
                 className="App-link-small"
               >
-                <FontAwesomeIcon icon={faDocker} /> Docker                
+                <FontAwesomeIcon icon={faDocker} /> Docker
               </Button>
             </Col>
             <Col md="auto">
@@ -67,7 +67,7 @@ function LandingPage() {
                 href="https://unraid.net/community/apps?q=netalertx#r"
                 className="App-link-small"
               >
-                <SiUnraid /> Unraid                
+                <SiUnraid /> Unraid
               </Button>
             </Col>
             <Col md="auto">
@@ -76,7 +76,7 @@ function LandingPage() {
                 href="https://github.com/alexbelgium/hassio-addons/blob/master/netalertx/README.md"
                 className="App-link-small"
               >
-                <Icon path={mdiHomeAssistant} size={1} color="white" /> Home Assistant                
+                <Icon path={mdiHomeAssistant} size={1} color="white" /> Home Assistant
               </Button>
             </Col>
           </Row>
@@ -99,15 +99,15 @@ function LandingPage() {
             description="Receive alerts in-app, via email, Telegram, Pushover, and more than 80+ services via Apprise for detected changes."
             backgroundImage="img/section_slices/in_app_notifications.gif"
             imagePosition="right"
-        />       
+        />
         <SectionSlice
-            icon={faNetworkWired} 
+            icon={faNetworkWired}
             title="Network Visualization and UI Customization"
             description={
                 <>
                     User friendly visualization of your {" "}
                     <a
-                        href="https://jokob-sk.github.io/NetAlertX/NETWORK_TREE/"
+                        href="https://docs.netalertx.com/NETWORK_TREE/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline"
@@ -118,7 +118,7 @@ function LandingPage() {
             }
             backgroundImage="img/section_slices/network_ui.gif"
             imagePosition="left"
-        />       
+        />
         <SectionSlice
             icon={faGroupArrowsRotate}
             title="Multi-Network Visibility"
@@ -126,7 +126,7 @@ function LandingPage() {
                 <>
                     Synchronize multiple networks and gain cross-network visibility of devices across a range of network device manufacturers with the{" "}
                     <a
-                        href="https://jokob-sk.github.io/NetAlertX/REMOTE_NETWORKS/"
+                        href="https://docs.netalertx.com/REMOTE_NETWORKS/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline"
@@ -137,7 +137,7 @@ function LandingPage() {
             }
             backgroundImage="img/section_slices/sync_hub.png"
             imagePosition="right"
-        />       
+        />
         <SectionSlice
             icon={faHouseSignal}
             title="Integrate with your smart home"
@@ -145,7 +145,7 @@ function LandingPage() {
                 <>
                     Synchronize device status and attributes to your{" "}
                     <a
-                        href="https://jokob-sk.github.io/NetAlertX/HOME_ASSISTANT/"
+                        href="https://docs.netalertx.com/HOME_ASSISTANT/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline"
@@ -156,7 +156,7 @@ function LandingPage() {
             }
             backgroundImage="img/section_slices/home_Assistant.gif"
             imagePosition="left"
-        />       
+        />
         <SectionSlice
             icon={faArrowsSplitUpAndLeft}
             title="Automate Device Management"
@@ -164,7 +164,7 @@ function LandingPage() {
                 <>
                     Automate device management in NetAlertX with simple{" "}
                     <a
-                        href="https://jokob-sk.github.io/NetAlertX/WORKFLOWS/"
+                        href="https://docs.netalertx.com/WORKFLOWS/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline"
@@ -175,8 +175,8 @@ function LandingPage() {
             }
             backgroundImage="img/section_slices/workflows.gif"
             imagePosition="right"
-        />     
-        
+        />
+
 
       </section>
 
@@ -184,14 +184,14 @@ function LandingPage() {
         <h2>Screenshots</h2>
         <Carousel />
       </section>
-      
+
       <section className="WhyUse section-padding">
         <h2>Why Net<b>Alert</b><sup>x</sup>?</h2>
         <p>Net<b>Alert</b><sup>x</sup> provides a user-friendly solution to monitor your network, ensuring peace of mind and enhanced security.</p>
 
         <p>Net<b>Alert</b><sup>x</sup> is your ultimate network management companion. Stay ahead with real-time alerts for new devices, disconnections, and critical changes. With scheduled scans and seamless integration with over 80 notification services, including email and Telegram, Net<b>Alert</b><sup>x</sup> keeps you informed anywhere. </p>
-        
-        
+
+
         <p>Visualize your network with intuitive UI customization and unify multiple networks effortlessly. Plus, integrate with Home Assistant for advanced automation. Whether you're monitoring your home or office network, Net<b>Alert</b><sup>x</sup> empowers you with deep insights and proactive management. </p>
       </section>
       <section className="Integrations section-padding">
@@ -199,12 +199,12 @@ function LandingPage() {
         <p>Net<b>Alert</b><sup>x</sup> features a robust plugin system that allows third-party scripts to feed events into the UI and send notifications, with functionalities like dynamic UI creation, value filtering, and importing objects into the database. </p>
         <a
           className="App-link-small btn btn-secondary"
-          href="https://jokob-sk.github.io/NetAlertX/PLUGINS_DEV"
+          href="https://docs.netalertx.com/PLUGINS_DEV"
           target="_blank"
           rel="noreferrer"
         >
-          <span><FontAwesomeIcon icon={faCode} /> Plugin missing? Create one</span>          
-          
+          <span><FontAwesomeIcon icon={faCode} /> Plugin missing? Create one</span>
+
         </a>
         <br/>
         <br/>
@@ -212,15 +212,15 @@ function LandingPage() {
         {/* <YouTube videoId={videoId} opts={opts}/> */}
         <br/>
         <br/>
-        
-        <PluginTables/>  
+
+        <PluginTables/>
 
       </section>
       <section className="CTA section-padding">
         <h2>Get Started on:</h2>
         <a
           className="App-link"
-          href="https://jokob-sk.github.io/NetAlertX/DOCKER_INSTALLATION/"
+          href="https://docs.netalertx.com/DOCKER_INSTALLATION/"
           target="_blank"
           rel="noreferrer"
         >
