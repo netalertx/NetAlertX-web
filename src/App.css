@@ -4,7 +4,7 @@
 
 .LandingPage {
   background-color: #000000; /* Black */
-  
+
 }
 
 .section-padding
@@ -104,7 +104,7 @@ a:hover{
 } */
 
 .col .card-body {
-  background-color: #333c46; 
+  background-color: #333c46;
   color: #ecedee;
   --bs-card-border-color: none !important;
   border-radius: 5px;
@@ -134,8 +134,8 @@ a:hover{
 .App-link svg{
   height: 16px;
   float: left;
-  padding: 3px; 
-  
+  padding: 3px;
+
 }
 
 .App-link:hover {
@@ -159,11 +159,11 @@ a:hover{
 
 .slice .card-text
 {
- 
+
   margin-top: 15%;
   justify-content: center; /* Horizontal centering */
   align-items: center;    /* Vertical centering */
-  
+
 }
 
 .modal-content{
@@ -183,7 +183,7 @@ a:hover{
 .slice .card-img
 {
   cursor: pointer;
-} 
+}
 
 .pointer
 {
@@ -243,7 +243,7 @@ a:hover{
   opacity: 0.1;
   float: right;
   display: block;
-  
+
 }
 
 .magnifying-icon-slice
@@ -263,6 +263,14 @@ a:hover{
 {
   font-size:larger;
   padding: 50px;
+}
+
+.sub-pitch
+{
+  font-size: large;
+  padding: 25px;
+  color: #bec5cb;
+  margin-top: 5px;
 }
 
 .App-link-small

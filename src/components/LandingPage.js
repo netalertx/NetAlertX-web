@@ -43,7 +43,10 @@ function LandingPage() {
         <Container>
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Net<b>Alert</b><sup>x</sup></h1>
-        <p className='pitch'>Easily visualize all your networks in one place, enhance security with real-time alerts, and enjoy seamless integration with your smart home—no matter what hardware you use.</p>
+        <p className='pitch'>Centralized network visibility and continuous asset discovery.</p>
+        <p className='sub-pitch'>
+          Monitor devices, detect change, and stay aware across distributed networks.
+        </p>
           <a
             className="App-link d-block mx-auto mb-4"
             href="#Features"
@@ -105,7 +108,7 @@ function LandingPage() {
             title="Network Visualization and UI Customization"
             description={
                 <>
-                    User friendly visualization of your {" "}
+                    Advanced visualization of your {" "}
                     <a
                         href="https://docs.netalertx.com/NETWORK_TREE/"
                         target="_blank"
@@ -113,7 +116,7 @@ function LandingPage() {
                         className="hover:underline"
                     >
                         network
-                    </a>{" "}and detailed UI configuartion options.
+                    </a>{" "}and detailed UI configuration options.
                 </>
             }
             backgroundImage="img/section_slices/network_ui.gif"
@@ -140,7 +143,7 @@ function LandingPage() {
         />
         <SectionSlice
             icon={faHouseSignal}
-            title="Integrate with your smart home"
+            title="Integrate with Leading Automation Platforms"
             description={
                 <>
                     Synchronize device status and attributes to your{" "}
@@ -150,8 +153,8 @@ function LandingPage() {
                         rel="noopener noreferrer"
                         className="hover:underline"
                     >
-                        Home Assistant instance
-                    </a> for advanced automation workflows.
+                        leading automation platforms
+                    </a> for advanced workflow automation.
                 </>
             }
             backgroundImage="img/section_slices/home_Assistant.gif"
@@ -162,7 +165,7 @@ function LandingPage() {
             title="Automate Device Management"
             description={
                 <>
-                    Automate device management in NetAlertX with simple{" "}
+                    Automate device management in NetAlertX with live presence detection, simple{" "}
                     <a
                         href="https://docs.netalertx.com/WORKFLOWS/"
                         target="_blank"
@@ -186,13 +189,13 @@ function LandingPage() {
       </section>
 
       <section className="WhyUse section-padding">
-        <h2>Why Net<b>Alert</b><sup>x</sup>?</h2>
-        <p>Net<b>Alert</b><sup>x</sup> provides a user-friendly solution to monitor your network, ensuring peace of mind and enhanced security.</p>
+        <h2>Real-World Network Solutions</h2>
+        <p>Net<b>Alert</b><sup>x</sup> delivers a scalable and secure solution for comprehensive network monitoring, ensuring compliance, security, and operational efficiency.</p>
 
-        <p>Net<b>Alert</b><sup>x</sup> is your ultimate network management companion. Stay ahead with real-time alerts for new devices, disconnections, and critical changes. With scheduled scans and seamless integration with over 80 notification services, including email and Telegram, Net<b>Alert</b><sup>x</sup> keeps you informed anywhere. </p>
+        <p>Net<b>Alert</b><sup>x</sup> is a powerful network management tool for businesses. Proactively detect unauthorized devices, connectivity issues, and critical changes with automated scans and robust alerting via 80+ integrated notification services, including email and messaging platforms.</p>
 
 
-        <p>Visualize your network with intuitive UI customization and unify multiple networks effortlessly. Plus, integrate with Home Assistant for advanced automation. Whether you're monitoring your home or office network, Net<b>Alert</b><sup>x</sup> empowers you with deep insights and proactive management. </p>
+        <p>Gain full visibility into your network infrastructure with customizable dashboards and seamless multi-network synchronization. Integrate with leading automation and management systems for streamlined workflows. Whether managing campus-wide or global networks, Net<b>Alert</b><sup>x</sup> provides the insights and control needed for proactive network governance.</p>
       </section>
       <section className="Integrations section-padding">
         <h2>Available Plugins</h2>
