@@ -93,13 +93,13 @@ function LandingPage() {
         <SectionSlice
             icon={faSearch}
             title="Scheduled and Ad-hoc Network Scans"
-            description="Scan your network for new devices, port, IP changes, disconnections, reconnections, important devices going down and more."
+            description="Scan your network for new devices, port, IP changes, disconnections, reconnections, critical devices going down, and more."
             backgroundImage="img/section_slices/scanners_settings_ad_hoc_run.gif"
         />
         <SectionSlice
             icon={faBell}
             title="80+ Notification Services"
-            description="Receive alerts in-app, via email, Telegram, Pushover, and more than 80+ services via Apprise for detected changes."
+            description="Receive alerts in-app, via email, Telegram, Pushover, and over 80 services supported by Apprise for detected changes."
             backgroundImage="img/section_slices/in_app_notifications.gif"
             imagePosition="right"
         />
@@ -190,16 +190,16 @@ function LandingPage() {
 
       <section className="WhyUse section-padding">
         <h2>Real-World Network Solutions</h2>
-        <p>Net<b>Alert</b><sup>x</sup> delivers a scalable and secure solution for comprehensive network monitoring, ensuring compliance, security, and operational efficiency.</p>
+        <p>Net<b>Alert</b><sup>x</sup> delivers a scalable and secure solution for comprehensive network monitoring, supporting security awareness and operational efficiency.</p>
 
-        <p>Net<b>Alert</b><sup>x</sup> is a powerful network management tool for businesses. Proactively detect unauthorized devices, connectivity issues, and critical changes with automated scans and robust alerting via 80+ integrated notification services, including email and messaging platforms.</p>
+        <p>Net<b>Alert</b><sup>x</sup> is a powerful network management tool for businesses. Proactively detect unknown devices, connectivity issues, and critical changes with automated scans and robust alerting via 80+ integrated notification services, including email and messaging platforms.</p>
 
 
-        <p>Gain full visibility into your network infrastructure with customizable dashboards and seamless multi-network synchronization. Integrate with leading automation and management systems for streamlined workflows. Whether managing campus-wide or global networks, Net<b>Alert</b><sup>x</sup> provides the insights and control needed for proactive network governance.</p>
+        <p>Gain full visibility into your network infrastructure with customizable dashboards and seamless multi-network synchronization. Integrate with leading automation and management systems for streamlined workflows. Whether managing a single site or multiple distributed networks, Net<b>Alert</b><sup>x</sup> provides the insights and control needed for proactive network oversight.</p>
       </section>
       <section className="Integrations section-padding">
         <h2>Available Plugins</h2>
-        <p>Net<b>Alert</b><sup>x</sup> features a robust plugin system that allows third-party scripts to feed events into the UI and send notifications, with functionalities like dynamic UI creation, value filtering, and importing objects into the database. </p>
+        <p>Net<b>Alert</b><sup>x</sup> features a robust plugin system that allows third-party integrations and plugins to feed events into the UI and send notifications, with functionalities like dynamic UI creation, value filtering, and importing objects into the database. </p>
         <a
           className="App-link-small btn btn-secondary"
           href="https://docs.netalertx.com/PLUGINS_DEV"
