@@ -12,6 +12,7 @@ cd NetAlertX-web
 npm install
 ```
 
+
 ## Running the App
 
 Start the development server:
